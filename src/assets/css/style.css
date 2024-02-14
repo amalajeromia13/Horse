@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.navbar {
+    position: fixed;
+
+}
+
+.navbar-brand {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bolder;
+    font-size: 200px;
+}
+
+.container1 {
+    background-image: url("https://images.unsplash.com/photo-1517326451550-8612522c096e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+
+}
+
+.container-h1 {
+    font-size: 50px;
+}
+
+.container-gap {
+
+    gap: 50px;
+}
+
+.blog-img {
+    width: 50px;
+    height: 450px;
+}
+
+
+
+.cat-con {
+
+    gap: 20px;
+    border: 1px solid black;
+}
+
+.cat-con:hover {
+    box-shadow: 10px -10px 20px black;
+    transform: translate(50px -70px);
+    transition: .5s;
+    cursor: pointer;
+}
+
+
+.container-right {
+
+
+    font-size: 100px;
+}
+
+
+
+.container2-h1 {
+
+    font-size: 50px;
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+input,
+textarea {
+    box-shadow: 5px 5px 10px gray;
+}
+
+.blog-con {
+    gap: 30px;
+}
+
+.blog-con .blog-con-img {
+    height: 250px;
+
+}
+
+.col img {
+    width: 80px;
+    height: 80px;
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 5px;
+
+}
+
+.gallery-h2::after {
+    content: "";
+    position: absolute;
+    width: 70px;
+    border: 1px solid white;
+    left: 0;
+    bottom: -6px;
+    color: white;
+
+
+}
+
+.gallery-h2 {
+    position: relative;
+    /* padding-bottom: 10px; */
+
+}
+
+.Gallery {
+    gap: 15px;
+
+}
+
+.gal-row {
+    gap: 30px;
+
+
+
+}
